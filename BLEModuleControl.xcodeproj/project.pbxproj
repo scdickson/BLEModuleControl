@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2264299E1938E96E00A7ED90 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2264299D1938E96E00A7ED90 /* background.png */; };
+		22E9AE6D1937834F002C6788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9AE6C1937834F002C6788 /* Foundation.framework */; };
+		22E9AE711937834F002C6788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9AE701937834F002C6788 /* UIKit.framework */; };
+		22E9AE771937834F002C6788 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22E9AE751937834F002C6788 /* InfoPlist.strings */; };
+		22E9AE791937834F002C6788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E9AE781937834F002C6788 /* main.m */; };
+		22E9AE7D1937834F002C6788 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E9AE7C1937834F002C6788 /* AppDelegate.m */; };
+		22E9AE801937834F002C6788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E9AE7E1937834F002C6788 /* Main.storyboard */; };
+		22E9AE831937834F002C6788 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E9AE821937834F002C6788 /* ViewController.m */; };
+		22E9AE851937834F002C6788 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E9AE841937834F002C6788 /* Images.xcassets */; };
+		22E9AE8C1937834F002C6788 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9AE8B1937834F002C6788 /* XCTest.framework */; };
+		22E9AE8D1937834F002C6788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9AE6C1937834F002C6788 /* Foundation.framework */; };
+		22E9AE8E1937834F002C6788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9AE701937834F002C6788 /* UIKit.framework */; };
+		22E9AE961937834F002C6788 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22E9AE941937834F002C6788 /* InfoPlist.strings */; };
+		22E9AE981937834F002C6788 /* BLEModuleControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E9AE971937834F002C6788 /* BLEModuleControlTests.m */; };
+		22E9AEA219378368002C6788 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9AEA119378368002C6788 /* CoreBluetooth.framework */; };
+		22E9AEA519378EC8002C6788 /* grn_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E9AEA319378EC8002C6788 /* grn_on.png */; };
+		22E9AEA619378EC8002C6788 /* led_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E9AEA419378EC8002C6788 /* led_off.png */; };
+		22E9AEA819378ED1002C6788 /* red_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E9AEA719378ED1002C6788 /* red_on.png */; };
+		22E9AEAA1937ABE1002C6788 /* transfer.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E9AEA91937ABE1002C6788 /* transfer.png */; };
+		22E9AEB21937CC19002C6788 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9AEB11937CC19002C6788 /* libCorePlot-CocoaTouch.a */; };
+		22E9AEB41937CC35002C6788 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9AEB31937CC35002C6788 /* QuartzCore.framework */; };
+		22E9AEB71937D024002C6788 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E9AEB61937D024002C6788 /* GraphView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22E9AE8F1937834F002C6788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E9AE611937834F002C6788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E9AE681937834F002C6788;
+			remoteInfo = BLEModuleControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2264299D1938E96E00A7ED90 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		22E9AE691937834F002C6788 /* BLEModuleControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEModuleControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E9AE6C1937834F002C6788 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22E9AE6E1937834F002C6788 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22E9AE701937834F002C6788 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22E9AE741937834F002C6788 /* BLEModuleControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLEModuleControl-Info.plist"; sourceTree = "<group>"; };
+		22E9AE761937834F002C6788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22E9AE781937834F002C6788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22E9AE7A1937834F002C6788 /* BLEModuleControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLEModuleControl-Prefix.pch"; sourceTree = "<group>"; };
+		22E9AE7B1937834F002C6788 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22E9AE7C1937834F002C6788 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22E9AE7F1937834F002C6788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22E9AE811937834F002C6788 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22E9AE821937834F002C6788 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22E9AE841937834F002C6788 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22E9AE8A1937834F002C6788 /* BLEModuleControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEModuleControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E9AE8B1937834F002C6788 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		22E9AE931937834F002C6788 /* BLEModuleControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLEModuleControlTests-Info.plist"; sourceTree = "<group>"; };
+		22E9AE951937834F002C6788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22E9AE971937834F002C6788 /* BLEModuleControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEModuleControlTests.m; sourceTree = "<group>"; };
+		22E9AEA119378368002C6788 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		22E9AEA319378EC8002C6788 /* grn_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grn_on.png; sourceTree = "<group>"; };
+		22E9AEA419378EC8002C6788 /* led_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = led_off.png; sourceTree = "<group>"; };
+		22E9AEA719378ED1002C6788 /* red_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_on.png; sourceTree = "<group>"; };
+		22E9AEA91937ABE1002C6788 /* transfer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transfer.png; sourceTree = "<group>"; };
+		22E9AEB11937CC19002C6788 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
+		22E9AEB31937CC35002C6788 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		22E9AEB51937D024002C6788 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphView.h; path = ../GraphView.h; sourceTree = "<group>"; };
+		22E9AEB61937D024002C6788 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphView.m; path = ../GraphView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22E9AE661937834F002C6788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E9AEB41937CC35002C6788 /* QuartzCore.framework in Frameworks */,
+				22E9AEA219378368002C6788 /* CoreBluetooth.framework in Frameworks */,
+				22E9AE711937834F002C6788 /* UIKit.framework in Frameworks */,
+				22E9AE6D1937834F002C6788 /* Foundation.framework in Frameworks */,
+				22E9AEB21937CC19002C6788 /* libCorePlot-CocoaTouch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E9AE871937834F002C6788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E9AE8C1937834F002C6788 /* XCTest.framework in Frameworks */,
+				22E9AE8E1937834F002C6788 /* UIKit.framework in Frameworks */,
+				22E9AE8D1937834F002C6788 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22E9AE601937834F002C6788 = {
+			isa = PBXGroup;
+			children = (
+				22E9AE721937834F002C6788 /* BLEModuleControl */,
+				22E9AE911937834F002C6788 /* BLEModuleControlTests */,
+				22E9AE6B1937834F002C6788 /* Frameworks */,
+				22E9AE6A1937834F002C6788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22E9AE6A1937834F002C6788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22E9AE691937834F002C6788 /* BLEModuleControl.app */,
+				22E9AE8A1937834F002C6788 /* BLEModuleControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22E9AE6B1937834F002C6788 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22E9AEB31937CC35002C6788 /* QuartzCore.framework */,
+				22E9AEB11937CC19002C6788 /* libCorePlot-CocoaTouch.a */,
+				22E9AEA119378368002C6788 /* CoreBluetooth.framework */,
+				22E9AE6C1937834F002C6788 /* Foundation.framework */,
+				22E9AE6E1937834F002C6788 /* CoreGraphics.framework */,
+				22E9AE701937834F002C6788 /* UIKit.framework */,
+				22E9AE8B1937834F002C6788 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22E9AE721937834F002C6788 /* BLEModuleControl */ = {
+			isa = PBXGroup;
+			children = (
+				22E9AEB51937D024002C6788 /* GraphView.h */,
+				22E9AEB61937D024002C6788 /* GraphView.m */,
+				22E9AE7B1937834F002C6788 /* AppDelegate.h */,
+				22E9AE7C1937834F002C6788 /* AppDelegate.m */,
+				22E9AE7E1937834F002C6788 /* Main.storyboard */,
+				22E9AE811937834F002C6788 /* ViewController.h */,
+				22E9AE821937834F002C6788 /* ViewController.m */,
+				22E9AE841937834F002C6788 /* Images.xcassets */,
+				22E9AE731937834F002C6788 /* Supporting Files */,
+			);
+			path = BLEModuleControl;
+			sourceTree = "<group>";
+		};
+		22E9AE731937834F002C6788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2264299D1938E96E00A7ED90 /* background.png */,
+				22E9AEA91937ABE1002C6788 /* transfer.png */,
+				22E9AEA719378ED1002C6788 /* red_on.png */,
+				22E9AEA319378EC8002C6788 /* grn_on.png */,
+				22E9AEA419378EC8002C6788 /* led_off.png */,
+				22E9AE741937834F002C6788 /* BLEModuleControl-Info.plist */,
+				22E9AE751937834F002C6788 /* InfoPlist.strings */,
+				22E9AE781937834F002C6788 /* main.m */,
+				22E9AE7A1937834F002C6788 /* BLEModuleControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22E9AE911937834F002C6788 /* BLEModuleControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				22E9AE971937834F002C6788 /* BLEModuleControlTests.m */,
+				22E9AE921937834F002C6788 /* Supporting Files */,
+			);
+			path = BLEModuleControlTests;
+			sourceTree = "<group>";
+		};
+		22E9AE921937834F002C6788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22E9AE931937834F002C6788 /* BLEModuleControlTests-Info.plist */,
+				22E9AE941937834F002C6788 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22E9AE681937834F002C6788 /* BLEModuleControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E9AE9B1937834F002C6788 /* Build configuration list for PBXNativeTarget "BLEModuleControl" */;
+			buildPhases = (
+				22E9AE651937834F002C6788 /* Sources */,
+				22E9AE661937834F002C6788 /* Frameworks */,
+				22E9AE671937834F002C6788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLEModuleControl;
+			productName = BLEModuleControl;
+			productReference = 22E9AE691937834F002C6788 /* BLEModuleControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22E9AE891937834F002C6788 /* BLEModuleControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E9AE9E1937834F002C6788 /* Build configuration list for PBXNativeTarget "BLEModuleControlTests" */;
+			buildPhases = (
+				22E9AE861937834F002C6788 /* Sources */,
+				22E9AE871937834F002C6788 /* Frameworks */,
+				22E9AE881937834F002C6788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E9AE901937834F002C6788 /* PBXTargetDependency */,
+			);
+			name = BLEModuleControlTests;
+			productName = BLEModuleControlTests;
+			productReference = 22E9AE8A1937834F002C6788 /* BLEModuleControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22E9AE611937834F002C6788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Fluke Networks";
+				TargetAttributes = {
+					22E9AE891937834F002C6788 = {
+						TestTargetID = 22E9AE681937834F002C6788;
+					};
+				};
+			};
+			buildConfigurationList = 22E9AE641937834F002C6788 /* Build configuration list for PBXProject "BLEModuleControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22E9AE601937834F002C6788;
+			productRefGroup = 22E9AE6A1937834F002C6788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22E9AE681937834F002C6788 /* BLEModuleControl */,
+				22E9AE891937834F002C6788 /* BLEModuleControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22E9AE671937834F002C6788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E9AEA819378ED1002C6788 /* red_on.png in Resources */,
+				2264299E1938E96E00A7ED90 /* background.png in Resources */,
+				22E9AEAA1937ABE1002C6788 /* transfer.png in Resources */,
+				22E9AEA519378EC8002C6788 /* grn_on.png in Resources */,
+				22E9AE851937834F002C6788 /* Images.xcassets in Resources */,
+				22E9AE771937834F002C6788 /* InfoPlist.strings in Resources */,
+				22E9AE801937834F002C6788 /* Main.storyboard in Resources */,
+				22E9AEA619378EC8002C6788 /* led_off.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E9AE881937834F002C6788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E9AE961937834F002C6788 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22E9AE651937834F002C6788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E9AE831937834F002C6788 /* ViewController.m in Sources */,
+				22E9AEB71937D024002C6788 /* GraphView.m in Sources */,
+				22E9AE7D1937834F002C6788 /* AppDelegate.m in Sources */,
+				22E9AE791937834F002C6788 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E9AE861937834F002C6788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E9AE981937834F002C6788 /* BLEModuleControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22E9AE901937834F002C6788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E9AE681937834F002C6788 /* BLEModuleControl */;
+			targetProxy = 22E9AE8F1937834F002C6788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22E9AE751937834F002C6788 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E9AE761937834F002C6788 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22E9AE7E1937834F002C6788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E9AE7F1937834F002C6788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22E9AE941937834F002C6788 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E9AE951937834F002C6788 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22E9AE991937834F002C6788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		22E9AE9A1937834F002C6788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22E9AE9C1937834F002C6788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEModuleControl/BLEModuleControl-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Desktop/CorePlot_1.5.1/Binaries/iOS/CorePlotHeaders,
+				);
+				INFOPLIST_FILE = "BLEModuleControl/BLEModuleControl-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22E9AE9D1937834F002C6788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEModuleControl/BLEModuleControl-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Desktop/CorePlot_1.5.1/Binaries/iOS/CorePlotHeaders,
+				);
+				INFOPLIST_FILE = "BLEModuleControl/BLEModuleControl-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		22E9AE9F1937834F002C6788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLEModuleControl.app/BLEModuleControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEModuleControl/BLEModuleControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BLEModuleControlTests/BLEModuleControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		22E9AEA01937834F002C6788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLEModuleControl.app/BLEModuleControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEModuleControl/BLEModuleControl-Prefix.pch";
+				INFOPLIST_FILE = "BLEModuleControlTests/BLEModuleControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22E9AE641937834F002C6788 /* Build configuration list for PBXProject "BLEModuleControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E9AE991937834F002C6788 /* Debug */,
+				22E9AE9A1937834F002C6788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E9AE9B1937834F002C6788 /* Build configuration list for PBXNativeTarget "BLEModuleControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E9AE9C1937834F002C6788 /* Debug */,
+				22E9AE9D1937834F002C6788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E9AE9E1937834F002C6788 /* Build configuration list for PBXNativeTarget "BLEModuleControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E9AE9F1937834F002C6788 /* Debug */,
+				22E9AEA01937834F002C6788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22E9AE611937834F002C6788 /* Project object */;
+}
